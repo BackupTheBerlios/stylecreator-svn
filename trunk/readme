@@ -1,0 +1,52 @@
+Style Creator
+
+
+Jargon
+------
+In all my texts, I use the word style.
+For me, a style or theme are the same.
+Other people might have a different opinion on this, but if you read my texts, you can substitute style with theme.
+
+Another word for style or theme is skin.
+
+
+Basic description
+-----------------
+A program to create bitmap based styles for Qt and KDE.
+
+
+Detailed description
+--------------------
+The main focus of this program is to let end users, who do not have a lot of experience with coding styles manually, create their own bitmap based styles by using a user interface. The coding of a style is put to a minimum.
+However, power users probably want to extend their styles with their own code. Therefor, this program will let those users add their own code to customize a style to their own imagination.
+
+It's also possible to create code macros (or snippets if you want).
+This means that it's possible for a general user (who doesn't know how to code), to load a certain macro/snippet, set some values and add it to their own style without having to code a single line. This makes it possible to add special effects to your style.
+
+While the main purpose of the program is to create simple bitmap based styles for Qt and KDE, I want to expand it to do also:
+- create styles for individual programs: like Karamba styles, Amarok styles, KDM styles, Kopete styles etc...
+- convert from and to other styles (gtk, windows styles, ...). 
+- create icon packages. The program gives a list of important icons that need to be in a package etc...
+- and other things too probably.
+
+In the future I hope that at least KDE will be able to use vector based styles. Instead of fixed bitmap sizes, the desktop will be drawn with vector based images.
+
+
+Status
+------
+The current status is planning and first prototyping.
+
+Once this is done, I'll can get a better view on where possible problems might occure, and it gives me change to review my design so I can addapt/change it.
+
+
+Documentation
+-------------
+General design              doc/design.txt
+Plugin design               doc/plugins.txt
+
+
+Ideas, comments, remarks, want to help, ...
+-------------------------------------------
+Send a mail to:
+tbscope@users.berlios.de
+

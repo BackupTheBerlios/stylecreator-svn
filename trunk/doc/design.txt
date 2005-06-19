@@ -1,0 +1,16 @@
+design
+
+
+Summary
+-------
+This text will explain the general design of the program
+
+
+Details
+-------
+The program will work with style input and output plugins:
+- You open a certain style, it uses the correct input plugin
+- You then save the style, it uses the output plugin of the selected format
+(Similar to koffice IO plugins)
+
+More to follow... 

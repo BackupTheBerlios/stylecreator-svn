@@ -1,0 +1,51 @@
+Plugins
+
+
+Summary
+-------
+This text explains my view on how to use plugins for reading and writing styles.
+
+
+Details
+-------
+Every style format has different abilities. Some style formats have more features than others.
+So, it's important for the main program to know what is possible with a certain style format and what's not.
+
+So, an important task for a style plugin is to give the main program a list of what is possible.
+This means something like this:
+
+    button
+        bitmap
+        font
+        font color
+    checkbox
+        bitmap
+        font
+        font color
+
+Another style might have the following capabilities:
+
+    button
+        bitmap
+        alpha
+        sizes
+        font
+        font color
+        different states
+
+    etc...
+
+The user interface of the main program should addapt to the possibilities of a certain style format.
+
+Some styles have the ability to add custom code (scripts).
+Others are made up out of ini or xml based descriptions.
+Even other styles are completely code based (like the Qt and KDE styles).
+
+For the code based styles, there must be a way to read the style again into the program.
+Parsing code to guess what's what is, in my opinion, not the best way to do this.
+I'm thinking about using keywords in the code itself, or accompany the code with a settings file (xml file) with all the values and settings.
+
+
+
+
+I guess that large parts of it can be seen as similar to koffice IO plugins.
